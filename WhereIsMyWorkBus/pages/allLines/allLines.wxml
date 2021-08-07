@@ -1,0 +1,14 @@
+<!--pages/allLines/allLines.wxml-->
+<view class="nav">
+    <dropdownmenu dropDownMenuTitle='{{dropDownMenuTitle}}' 
+              dropDownMenuDistrictData='{{busLines}}' 
+              bind:selectedItem='selectedItem' />
+</view>
+<view class="container">
+    <view class="item" wx:for="{{tempBus}}" wx:key="index">
+        <text>班车线路：{{item.line}}</text>
+        <text>站点名称：{{item.title}}</text>
+        <text>到站时间：{{item.time}}</text>
+        <map longitude="{{item.longitude}}" latitude="{{item.latitude}}" markers="{{[{latitude:item.latitude, longitude:item.longitude}]}}" class="map" enable-scroll="{{false}}" enable-rotate="{{false}}"></map>
+     </view>
+</view>

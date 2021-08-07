@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "所有班车线路",
+    "usingComponents": {
+        "dropdownmenu": "/component/dropdownmenu/dropdownmenu"
+      }
+}

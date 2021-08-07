@@ -1,0 +1,26 @@
+/* pages/allLines/allLines.wxss */
+.nav{
+    margin-top: 20rpx;
+}
+
+.container {
+    padding-top: 40rpx;
+    margin-top: 0;
+}   
+
+.item{
+    margin: 40rpx auto;
+    margin-top: 0;
+}
+
+.item text{
+    display: block;
+    font-size: 30rpx;
+}
+
+.map{
+    margin: 20rpx auto;
+    margin-bottom: 0;
+}
+
+

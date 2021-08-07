@@ -1,0 +1,24 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/navigation/navigation",
+    "pages/busResult/busResult",
+    "pages/allLines/allLines",
+    "pages/about/about",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的班车在哪里",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#f8f8f8",
+    "backgroundTextStyle":"light"
+  },
+  "permission":{
+    "scope.userLocation": {
+      "desc": "你的位置将用于查找离你最近的班车站点"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

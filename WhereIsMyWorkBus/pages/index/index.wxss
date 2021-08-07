@@ -1,0 +1,70 @@
+/**index.wxss**/
+.title{
+    margin: 40rpx auto;
+    font-size: 40rpx;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.article{
+    margin: 0 auto;
+    text-align: left;
+    font-size: 30rpx;
+    line-height: 50rpx;
+}
+
+.body{
+    margin: 50rpx auto;
+    border-top: 2rpx solid #E7E7E7;
+    font-size: 36rpx;
+}
+
+.button{
+    margin: 0 auto;
+    height: 150rpx;
+    border-bottom: 2rpx solid #E7E7E7;
+    position: relative;
+}
+.buttonTap{
+    background-color: #E7E7E7;
+}
+
+.ico{
+    height: 36rpx;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navigator{
+    position: absolute;
+    left: 50rpx;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrrow{
+    height: 36rpx;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.foot{
+    margin-top: 150rpx;
+    text-align: center;
+    font-size: 26rpx;
+    color: #ccc;
+    background-color: #f8f8f8;
+}
+
+.update{
+    color: #7085B5;
+    margin-top: 50rpx;
+    text-align: center;
+    font-size: 26rpx;
+    text-decoration: underline;
+    background-color: #f8f8f8;
+}

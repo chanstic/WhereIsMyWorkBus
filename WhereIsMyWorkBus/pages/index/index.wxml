@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="title">查找你的班车站点</view>
+    <view class="article">查找你的班车站点目前包含查找最近班车站和查看所有班车线路两个功能。查找最近班车站点需要你的定位权限，该权限仅用来获取你的当前位置，定位信息不会存储，更不会另作他用。</view>
+    <view class="body">
+        <view class="button" bindtap="onRedirectToNearestStation" hover-class="buttonTap">
+            <image mode="heightFix" class="ico" src="/utils/station.png"></image>
+            <view class="navigator">最近站点</view>
+            <image mode="heightFix" class="arrrow" src="/utils/arror.png"></image>
+        </view>
+        <view class="button" bindtap="onRedirectToAllLines" hover-class="buttonTap">
+            <image mode="heightFix" class="ico" src="/utils/alllines.png"></image>
+            <view class="navigator">所有线路</view>
+            <image mode="heightFix" class="arrrow" src="/utils/arror.png"></image>
+        </view>
+    </view>
+</view>
+<view class="foot">注：班车线路请自行核对是否变更，以免耽误出行。</view>
+<navigator url="/pages/about/about">
+    <view class="update">关于小程序</view>
+</navigator>

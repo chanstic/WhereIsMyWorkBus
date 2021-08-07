@@ -1,0 +1,39 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+    <view class="title">版本历史记录</view>
+    <view class="update">
+        <view class="version">
+            <text class="number">1.0.3</text>
+            <text class="date">2021-8-7</text>
+        </view>
+        <view class="content">1. 实现班车线路筛选功能</view>
+        <view class="content">2. 修复选择其他位置后定位状态错误的问题</view>
+        <view class="content">3. 添加35号车塘沽线路</view>
+    </view>
+    <view class="update">
+        <view class="version">
+            <text class="number">1.0.2</text>
+            <text class="date">2021-8-4</text>
+        </view>
+        <view class="content">完成班车线路导入工作</view>
+    </view>
+    <view class="update">
+        <view class="version">
+            <text class="number">1.0.1</text>
+            <text class="date">2021-8-2</text>
+        </view>
+        <view class="content">1. 修复flex布局在安卓端失效的问题</view>
+        <view class="content">2. 修复持续定位可能导致耗电增多的问题</view>
+        <view class="content">3. 修复安卓端中文路径图片加载失败的问题</view>
+        <view class="content">4. 上线关于页面</view>
+        <view class="content">5. 导入班车线路若干</view>
+        <view class="content">6. UI设计优化</view>
+    </view>
+    <view class="update">
+        <view class="version">
+            <text class="number">1.0.0</text>
+            <text class="date">2021-8-1</text>
+        </view>
+        <view class="content">开发版上线</view>
+    </view>
+</view>

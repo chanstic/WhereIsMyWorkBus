@@ -1,0 +1,12 @@
+<!--pages/busResult/busResult.wxml-->
+<view class="container">
+    <view class="busInfo" wx:for="{{minLocation}}" wx:key="index"> 
+        <view>
+            <text>班车线路：{{item.bus.line}}</text>
+            <text>站点名称：{{item.bus.title}}</text>
+            <text>到站时间：{{item.bus.time}}</text>
+            <text>步行距离：{{item.distance}} 米</text>
+        </view>
+        <map longitude="{{item.bus.longitude}}" latitude="{{item.bus.latitude}}" markers="{{[{latitude:item.bus.latitude, longitude:item.bus.longitude}]}}" class="map" enable-scroll="{{false}}" enable-rotate="{{false}}"></map>
+    </view>
+</view>

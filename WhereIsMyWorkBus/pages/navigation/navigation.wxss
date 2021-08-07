@@ -1,0 +1,23 @@
+/* pages/navigation/navigation.wxss */
+
+.currentLocation{
+    margin: 40rpx auto;
+    font-size: 30rpx;
+}
+
+.map{
+    height: 400rpx;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 100rpx;
+}
+
+.searchNearestWorkBus{
+    margin-top: 100rpx;
+    font-size: 30rpx;
+}
+
+.chooseOtherLocation{
+    margin: 40rpx auto;
+    font-size: 30rpx;
+}

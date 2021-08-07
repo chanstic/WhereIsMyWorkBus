@@ -1,0 +1,9 @@
+<!--pages/navigation/navigation.wxml-->
+<view class="container">
+    <view class="currentLocation">当前选择位置：{{currentLocation.name}}</view>
+    <view class="currentLocation">当前定位状态：{{locationState}}</view>
+    <map class="map" longitude="{{currentLocation.longitude}}" latitude="{{currentLocation.latitude}}" markers="{{markers}}"></map>
+    <button class="searchNearestWorkBus" type="primary" bindtap="searchBus" loading="{{isLoading}}" disabled="{{isEnableSearch}}">查找最近站点</button>
+    <button class="chooseOtherLocation" bindtap="chooseOtherLocation">选择其他位置</button>
+</view>
+
